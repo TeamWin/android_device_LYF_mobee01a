@@ -26,11 +26,14 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
+#Encryption
+PRODUCT_PACKAGES += \
+    libcryptfs_hw
+
 # Kernel
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/LS5015-kernel/kernel:kernel\
-    $(LOCAL_PATH)/LS5015-kernel/dt.img:dt.img \
-    $(LOCAL_PATH)/twrp.fstab:recovery/root/etc/twrp.fstab
+    $(LOCAL_PATH)/LS5015-kernel/dt.img:dt.img 
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := LS5015
