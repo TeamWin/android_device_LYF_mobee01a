@@ -29,7 +29,8 @@ TARGET_SCREEN_WIDTH := 1080
 # Kernel
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/LS5015-kernel/kernel:kernel\
-    $(LOCAL_PATH)/LS5015-kernel/dt.img:dt.img
+    $(LOCAL_PATH)/LS5015-kernel/dt.img:dt.img \
+    $(LOCAL_PATH)/recovery/root/fstab.qcom:root/fstab.qcom
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := LS5015
