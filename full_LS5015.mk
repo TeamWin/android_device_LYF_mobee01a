@@ -32,8 +32,8 @@ PRODUCT_PACKAGES += \
 
 # Kernel
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/LS5015-kernel/kernel:kernel\
-    $(LOCAL_PATH)/LS5015-kernel/dt.img:dt.img 
+    $(LOCAL_PATH)/LS5015-kernel/zImage:kernel\
+    $(LOCAL_PATH)/LS5015-kernel/boot.img-dt:dt.img 
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := LS5015
