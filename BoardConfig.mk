@@ -94,6 +94,10 @@ TW_MTP_DEVICE := "/dev/mtp_usb"
 #TW_NO_USB_STORAGE := true
 TW_OEM_BUILD := false
 TW_THEME := portrait_hdpi
+TW_INTERNAL_STORAGE_PATH := "/data/media/0"
+TW_INTERNAL_STORAGE_MOUNT_POINT := "data"
+TW_EXTERNAL_STORAGE_PATH := "/external_sd"
+TW_EXTERNAL_STORAGE_MOUNT_POINT := "external_sd"
 
 #Mouse c ursor
 TW_INPUT_BLACKLIST := "hbtp_vm"
