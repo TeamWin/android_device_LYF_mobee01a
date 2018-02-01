@@ -7,8 +7,8 @@
   },
   {
     "remote":"github",
-    "repository": "AndroiableDroid/android_kernel_LYF_LS5015",
+    "repository": "AndroiableDroid/kernel_LS-5015",
     "target_path": "kernel/LYF/LS5015",
-    "revision":"master"
+    "revision":"n"
   }
 ]
