@@ -88,3 +88,4 @@ TW_EXTERNAL_STORAGE_PATH := "/external_sd"
 TW_EXTERNAL_STORAGE_MOUNT_POINT := "external_sd"
 
 #Red
+DEVICE_HAS_2GB_VARIANT := true
