@@ -4,11 +4,5 @@
     "repository": "TeamWin/android_device_qcom_common",
     "target_path": "device/qcom/common",
     "revision":"android-7.1"
-  },
-  {
-    "remote":"github",
-    "repository": "AndroiableDroid/kernel_LS-5015",
-    "target_path": "kernel/LYF/LS5015",
-    "revision":"n"
   }
 ]

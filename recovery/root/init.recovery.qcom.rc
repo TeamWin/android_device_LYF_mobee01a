@@ -10,3 +10,7 @@ service qseecomd /sbin/qseecomd
     group root system drmrpc
     seclabel u:r:recovery:s0
     disabled
+
+on fs
+    wait /dev/block/platform/soc.0/7824900.sdhci
+    symlink /dev/block/platform/soc.0/7824900.sdhci /dev/block/bootdevice
