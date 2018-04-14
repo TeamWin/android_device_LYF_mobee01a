@@ -23,3 +23,15 @@ $(call inherit-product, device/LYF/mobee01a/full_mobee01a.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 PRODUCT_NAME := omni_mobee01a
+BOARD_VENDOR := LYF
+
+PRODUCT_GMS_CLIENTID_BASE := android-ckt
+
+TARGET_VENDOR_PRODUCT_NAME := LS-5015
+TARGET_VENDOR_DEVICE_NAME := LS-5015
+PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=LS-5015 PRODUCT_NAME=LS-5015
+
+# Build fingerprint
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BUILD_FINGERPRINT="LYF/LS-5015/LS-5015:6.0.1/MMB29M/434:user/release-keys" \
+PRIVATE_BUILD_DESC="mobee01a_msm8916_64-user 6.0.1 MMB29M 701 release-keys"
